@@ -1,0 +1,16 @@
+---
+name: SellExp
+api: 5.0.0
+version: 0.0.1
+main: SellExp\Main
+author: ItsFestivalVN
+description: Plugin Bán Kinh Nghiệm
+commands:
+  sellexpui:
+    description: "Mở Giao Diện Bán Kinh Nghiệm"
+    permission: sellexpui.cmd
+    aliases: ["sellexp", "banexp"]
+permissions:
+  sellexpui.cmd:
+    default: true
+...
